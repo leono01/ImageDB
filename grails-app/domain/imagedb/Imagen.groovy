@@ -9,6 +9,6 @@ class Imagen
     static constraints = 
     {
         screenshot maxSize:1073741824
-        fechaCreacion nullable: false
+        fechaCreacion nullable: false, min: new Date()
     }
 }
